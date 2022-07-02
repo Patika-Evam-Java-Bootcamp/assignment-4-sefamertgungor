@@ -22,8 +22,8 @@ public class ReadJsonFileService {
 
         try {
 
-            //Dosya bulundu.
-            FileReader reader = new FileReader("C:\\Users\\meert\\Desktop\\week4\\src\\main\\resources\\jsonfiles\\student.json");
+            //Dosya bulundu. Dosya yolu verilebilir. 
+            FileReader reader = new FileReader("\\jsonfiles\\student.json");
 
             Object fileObj = jsonParser.parse(reader);
 
